@@ -900,6 +900,7 @@ justify-content: center;
     padding-left: 16px;
     padding-right: 16px;
     } 
+}
         .container-hiro {
             padding-left: 15px;
         padding-right: 15px;
@@ -961,9 +962,8 @@ justify-content: center;
         .portfolio-item {
             width: calc((100% - 24px) / 2);
         }
-    }
-
-@media screen and (min-width: 1200px) {
+    
+@media screen and (min-width: 1158px) {
     .container {
             width: 1158px;
             padding-left: 16px;
