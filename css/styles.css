@@ -255,6 +255,7 @@ display: flex;
 flex-wrap: wrap;
 /*gap: 24px;*/
 gap: 74px;
+
 }
 
 .conteiner-icon {
@@ -312,13 +313,14 @@ padding-bottom: 96px;
 }
 .team-list {
     border-radius: 0px 0px 4px 4px;
-    display: flex;
+    /*--display: flex;--*/
     /*gap: 24px;*/
     gap: 72px;
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
     justify-content: center;
+    flex-direction: column;
 }
 .name-post {
     padding: 32px 0;
@@ -413,6 +415,7 @@ display: flex;
 flex-wrap: wrap;
 gap: 48px;
 /*gap: 48px 24px;*/
+flex-direction: column;
 
 }
 
@@ -522,10 +525,16 @@ font-family: "Raleway", sans-serif;
     color: #FFFFFF;
     margin-bottom: 16px;
 }
- 
+ .container-footer {
+    flex-direction: column;
+ }
+ .footer-form-container {
+    flex-direction: column;
+ }
 .footer-list {
     display: flex;
     gap: 16px;
+    
 }
 .footer-icons {
     width: 40px;
@@ -555,10 +564,10 @@ font-family: "Raleway", sans-serif;
 .team-icons {
     fill: #f4f4fd;
 }
-.container-footer {
+/*--.container-footer {
     display:flex;
 }
-
+--*/
 .div-container-footer {
     margin-right: 120px;
 }
@@ -576,9 +585,8 @@ font-family: "Raleway", sans-serif;
     align-items: center;
 }
 .footer-form {
-    /*--display: flex;--*/
+    display: flex;
     gap: 24px;
-    flex-wrap: wrap;
 }
 .label {
 gap: 24px;
@@ -961,6 +969,9 @@ justify-content: center;
             padding-left: 16px;
             padding-right: 16px;
         }
+                .container-footer {
+                    display: flex;
+                }
         .hiro {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice1.jpg);
         }
